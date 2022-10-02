@@ -1,0 +1,24 @@
+[debug] [2022-10-02T11:55:54.656Z] ----------------------------------------------------------------------
+[debug] [2022-10-02T11:55:54.659Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-10-02T11:55:54.659Z] CLI Version:   11.13.0
+[debug] [2022-10-02T11:55:54.660Z] Platform:      win32
+[debug] [2022-10-02T11:55:54.660Z] Node Version:  v16.17.0
+[debug] [2022-10-02T11:55:54.662Z] Time:          Sun Oct 02 2022 12:55:54 GMT+0100 (West Africa Standard Time)
+[debug] [2022-10-02T11:55:54.662Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-02T11:55:54.742Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-02T11:55:54.743Z] > authorizing via signed-in user (johnuduak035@gmail.com)
+[debug] [2022-10-02T11:55:54.743Z] [iam] checking project xeras-ad087 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]
+[debug] [2022-10-02T11:55:54.746Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/xeras-ad087:testIamPermissions [none]
+[debug] [2022-10-02T11:55:54.747Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/xeras-ad087:testIamPermissions x-goog-quota-user=projects/xeras-ad087
+[debug] [2022-10-02T11:55:54.747Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/xeras-ad087:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]}
+[debug] [2022-10-02T11:55:56.479Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/xeras-ad087:testIamPermissions 200
+[debug] [2022-10-02T11:55:56.479Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/xeras-ad087:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]}
+[debug] [2022-10-02T11:55:56.480Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/xeras-ad087/serviceAccounts/xeras-ad087@appspot.gserviceaccount.com:testIamPermissions [none]
+[debug] [2022-10-02T11:55:56.480Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/xeras-ad087/serviceAccounts/xeras-ad087@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2022-10-02T11:55:58.121Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/xeras-ad087/serviceAccounts/xeras-ad087@appspot.gserviceaccount.com:testIamPermissions 200
+[debug] [2022-10-02T11:55:58.122Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/xeras-ad087/serviceAccounts/xeras-ad087@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2022-10-02T11:55:58.126Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/xeras-ad087 [none]
+[debug] [2022-10-02T11:55:58.711Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/xeras-ad087 200
+[debug] [2022-10-02T11:55:58.712Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/xeras-ad087 {"projectId":"xeras-ad087","projectNumber":"919665415947","displayName":"Xeras","name":"projects/xeras-ad087","resources":{"hostingSite":"xeras-ad087","realtimeDatabaseInstance":"xeras-ad087-default-rtdb","storageBucket":"xeras-ad087.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_6e4e66cc-ea35-4839-be18-888449b0fbfd"}
+[debug] [2022-10-02T11:55:58.713Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/xeras-ad087 [none]
